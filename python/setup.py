@@ -41,7 +41,7 @@ setup(
     license='MIT',
     keywords='search nearest neighbors',
 
-    install_requires=['numpy'],
+    install_requires=['numpy < 1.17'],
     packages=['faiss'],
     package_data={
         'faiss': ['*.so'],
